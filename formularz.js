@@ -111,6 +111,7 @@ app.get("/logout", (req, res) => {
 });
 
 // Uruchomienie serwera
+
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Serwer dziala na porcie ${PORT}`);
