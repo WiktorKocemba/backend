@@ -103,7 +103,7 @@ app.post("/register", (req, res) => {
   });
 });
 
-// Wylogowanie
+// Wylogowanie (jak sie uda zalogowac)
 
 app.get("/logout", (req, res) => {
   res.clearCookie("username");
